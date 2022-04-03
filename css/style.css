@@ -13,6 +13,9 @@ body, p, a{
     background: rgba(255, 168, 0, 0.43);
     mix-blend-mode: normal;
 }
+.top_bar{
+    display: inline;
+}
 .top_menu_text{
     font-size: 20px;
     color: #7A7A7A;
@@ -23,16 +26,23 @@ body, p, a{
 .top_menu_text.active{
     color: black;
 }
-.title{
-    margin-top: 200px;
-}
-.title_main_text{
+.title_text{
     font-weight: 500;
 }
 .name{
     font-size: 48px;
     font-weight: 700;
 }
-.title_description_text{
+.profession{
     font-weight: 400;
+    font-size: 24px;
+}
+.button{
+    background: linear-gradient(95.14deg, #0003FF 0%, #B04BF9 35.84%, #FF8C6A 66.37%, #FFA800 100%);
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    border: 0px;
 }
