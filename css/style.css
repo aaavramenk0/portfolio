@@ -73,9 +73,12 @@ body, p, a{
     margin-top: 70px;
 }
 .horizontal_line{
-    width: 65px;
-    border: 1px solid rgba(0, 3, 255, 1);
+    width: 67px;
+    border: 0.1px solid rgba(0, 3, 255, 1);
     margin-top: -15px;
+}
+.works_hr{
+    width: 47px
 }
 .section_header{
     font-size: 36px;
@@ -112,4 +115,10 @@ body, p, a{
     line-height: 32px;
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
+}
+#works{
+    margin-top: 75px;
+}
+.work_examples{
+    display: flex;
 }
