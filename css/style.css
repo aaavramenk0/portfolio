@@ -4,17 +4,21 @@ body, p, a{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+/* Убрать колесо прокрутки */
+::-webkit-scrollbar {
+    width: 0;
+}
 .container{
-    width: 1250px;
+    width: 1200px;
     margin: auto;
 }
 .first_screen{
     padding-top: 50px;
-    background: rgba(255, 168, 0, 0.43);
-    mix-blend-mode: normal;
+    background-color: #d99058;
+    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);
 }
 .top_bar{
-    display: inline;
+    display: flex;
 }
 .top_menu_text{
     font-size: 20px;
@@ -26,7 +30,13 @@ body, p, a{
 .top_menu_text.active{
     color: black;
 }
+.title{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
 .title_text{
+    margin-top: 150px;
     font-weight: 500;
 }
 .name{
@@ -37,12 +47,66 @@ body, p, a{
     font-weight: 400;
     font-size: 24px;
 }
+.profile-photo{
+    margin-left: 200px;
+    margin-bottom: 76px;
+}
 .button{
-    background: linear-gradient(95.14deg, #0003FF 0%, #B04BF9 35.84%, #FF8C6A 66.37%, #FFA800 100%);
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
     border-radius: 100px;
     width: 200px;
     height: 50px;
     font-weight: 500;
     font-size: 24px;
     border: 0px;
+    margin-top: -250px;
+}   
+
+.section_name{
+    color: rgba(0, 3, 255, 1);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    margin-top: 70px;
+}
+.horizontal_line{
+    width: 65px;
+    border: 1px solid rgba(0, 3, 255, 1);
+    margin-top: -15px;
+}
+.section_header{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.services{
+    display: flex;
+}
+.android{
+    background: url(../img/icon_android.svg) no-repeat;
+    background-position: left top;
+    background-size: 64 px 64px;
+    padding-top: 0.1em;
+    padding-left: 25px;
+    width: 370px;
+    padding-bottom: 35px;
+}
+.java{
+    background: url(../img/icon_java.svg) no-repeat;
+    background-size: 120px 64px;
+}
+.web_dev{
+    background: url(../img/icon_web_dev.svg) no-repeat;
+    background-size: 100px 64px;
+}
+.android_header{
+    font-size: 24px;
+    text-align: center;
+    color: #FFA800;
+    font-weight: 400;
+}
+.android_text{
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
 }
