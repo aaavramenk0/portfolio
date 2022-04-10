@@ -20,6 +20,9 @@ body, p, a{
 .top_bar{
     display: flex;
 }
+.logo{
+    margin-top: -11px;
+}
 .top_menu_text{
     font-size: 20px;
     color: #7A7A7A;

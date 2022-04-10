@@ -15,14 +15,14 @@
 </head>
 <body>
     <!-- First screen START -->
-    <div class="first_screen">
+    <div class="first_screen" id="first_screen">
         <div class="container">
             <!-- Top menu with logo -->
             <div class="top_bar">        
-                <img src="img/logo.svg" alt="logo" class="logo">           
+                <a href="#first_screen"><img src="img/logo.svg" alt="logo" class="logo"></a>          
                 <a href="#" class="top_menu_text about_us active">About me</a>
-                <a href="#" class="top_menu_text services">Services</a>
-                <a href="#" class="top_menu_text works">Works</a>
+                <a href="#services" class="top_menu_text services">Services</a>
+                <a href="#works" class="top_menu_text works">Works</a>
                 <a href="#" class="top_menu_text skills">Skills</a>
             </div>
             <!-- Title text: name and occupation -->
@@ -44,7 +44,7 @@
         <h3 class="section_name">Services</h3>
         <hr class="horizontal_line" align="left">
         <h2 class="section_header">What actually <br> I love to do</h2>
-        <div class="services">
+        <div class="services" id="services">
             <div class="android ">
                 <h3 class="android_header">Android Development</h3>
                 <p class="android_text">Worked with architects, engineers, and product management to deliver user-friendly and visually appealing mobile games for the Android platform.</p>
@@ -63,7 +63,7 @@
 
     <!-- Third screen START -->
     <div class="container">
-        <h3 class="section_name">Works</h3>
+        <h3 class="section_name" id="works">Works</h3>
         <hr class="horizontal_line" align="left">
         <h2 class="section_header">All Creative <br>Projects</h2>
     </div>
