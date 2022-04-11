@@ -80,6 +80,9 @@ body, p, a{
 .works_hr{
     width: 47px
 }
+.technology_hr{
+    width: 104px;
+}
 .section_header{
     font-size: 36px;
     margin-bottom: 50px;
@@ -122,10 +125,15 @@ body, p, a{
 .work_examples{
     display: flex;
 }
+.tech_wrapper{
+    display: flex;
+}
 .technology{
     position: relative;
     width: 170px;
     height: 170px;
+    margin-bottom: 55px;
+    margin-left: 60px;
 }
 .technology .slack_icon{
     position: absolute;
@@ -134,5 +142,16 @@ body, p, a{
 }
 .icon_name{
     position: absolute;
-    font-size: 30px;
+    top: 70%;
+    left: 37%;
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.vs_studio_text{
+    left: 23%;
+    top: 65%;
+    text-align: center;
+}
+.intellij_idea_text{
+    left: 27%;
 }
