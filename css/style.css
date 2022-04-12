@@ -83,6 +83,9 @@ body, p, a{
 .technology_hr{
     width: 104px;
 }
+.skills_hr{
+    width: 38px;
+}
 .section_header{
     font-size: 36px;
     margin-bottom: 50px;
@@ -143,7 +146,7 @@ body, p, a{
 .icon_name{
     position: absolute;
     top: 70%;
-    left: 37%;
+    left: 35%;
     font-size: 18px;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -154,4 +157,32 @@ body, p, a{
 }
 .intellij_idea_text{
     left: 27%;
+}
+.microsoft_text{
+    margin-left: -15px;
+}
+.intellij_idea{
+    margin-left: -10px;    
+}   
+.spotify{
+    margin-left: -10px;
+}
+.spotify_text{
+    margin-left: -5px;
+}
+.skills_wrapper{
+    display: grid;
+}
+.quote{
+    margin: auto;
+    margin-bottom: 15px;
+}
+.quote_text{
+    margin: auto;
+}
+.skill_icons{
+    display: flex;
+}
+.skill_icon{
+    max-width: 35%;
 }
