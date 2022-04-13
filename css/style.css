@@ -86,6 +86,9 @@ body, p, a{
 .skills_hr{
     width: 38px;
 }
+.contact_hr{
+    width: 94px;
+}
 .section_header{
     font-size: 36px;
     margin-bottom: 50px;
@@ -185,4 +188,17 @@ body, p, a{
 }
 .skill_icon{
     max-width: 35%;
+    margin-left: -27px;
+    margin-top: -50px;
+}
+.pager_dots{
+    display: grid;
+    margin: auto;
+    margin-top: -105px;
+
+}
+.contact_header{
+    width: 585px;
+    font-size: 36px;
+    font-weight: 400;
 }
