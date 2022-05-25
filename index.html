@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Red+Hat+Display&display=swap" rel="stylesheet">
 
-    <title>Aleksandr Avramenko</title>
+    <title>Oleksandr Avramenko</title>
 </head>
 <body>
     <!-- First screen START -->
@@ -23,16 +23,16 @@
                 <a href="#" class="top_menu_text about_us active">About me</a>
                 <a href="#services" class="top_menu_text services">Services</a>
                 <a href="#works" class="top_menu_text works">Works</a>
-                <a href="#" class="top_menu_text skills">Skills</a>
+                <a href="#skills" class="top_menu_text skills">Skills</a>
             </div>
             <!-- Title text: name and occupation -->
             <div class="title">
-                <h1 class="title_text"> Hello, I am <br><span class="name">Aleksandr Avramenko</span><br> <span class="profession">IT-Developer</span> </h1>
+                <h1 class="title_text"> Hello, I am <br><span class="name">Oleksandr Avramenko</span><br> <span class="profession">IT-Developer</span> </h1>
                 <!-- Photo of person -->
                 <div class="profile-photo"><img src="img/profile_photo.svg" alt="Profile photo"></div>
                 <!-- Button -->
                 <button class="button">
-                    <a href="#" style="color: white;">Contact me</a>
+                    <a href="#contact" style="color: white;">Contact me</a>
                 </button>
             </div>
         </div>
@@ -41,11 +41,11 @@
     
     <!-- Second screen START -->
     <div class="container">
-        <h3 class="section_name">Services</h3>
+        <h3 class="section_name" id="services">Services</h3>
         <hr class="horizontal_line" align="left">
         <h2 class="section_header">What actually <br> I love to do</h2>
-        <div class="services" id="services">
-            <div class="android ">
+        <div class="services" >
+            <div class="android">
                 <h3 class="android_header">Android Development</h3>
                 <p class="android_text">Worked with architects, engineers, and product management to deliver user-friendly and visually appealing mobile games for the Android platform.</p>
             </div>
@@ -110,7 +110,7 @@
 
     <!-- Fifth screen START -->
     <div class="container">
-        <h3 class="section_name" id="works">Skills</h3>
+        <h3 class="section_name" id="skills">Skills</h3>
         <hr class="horizontal_line skills_hr" align="left">
         <h2 class="section_header">Me in <br>Numbers</h2>
 
@@ -129,34 +129,29 @@
 
     <!-- Sixth screen START -->
     <div class="container">
-        <h3 class="section_name" id="works">Contact me</h3>
+        <h3 class="section_name" id="contact">Contact me</h3>
         <hr class="horizontal_line contact_hr" align="left">
         <h2 class="section_header contact_header">Let me know if you want to talk about a potential collaboration. I'm available for freelance work.</h2>
 
-        <div class="form">
-            <form action="">
-                <ul>
-                    <li>
-                      <label for="name">Name:</label>
-                      <input type="text" id="name" name="user_name">
-                    </li>
-                    <li>
-                      <label for="mail">E-mail:</label>
-                      <input type="email" id="mail" name="user_mail">
-                    </li>
-                    <li>
-                      <label for="msg">Message:</label>
-                      <textarea id="msg" name="user_message"></textarea>
-                    </li>
-            </form>
-        </div>
+        <!-- Form -->
+        <form action="submit" class="form">
+            <input type="text" name="name" id="name_input" placeholder="What’s your name?">
+            <input type="email" name="email" id="email_input" placeholder="Your email">
+            <input type="text" name="text" id="text_input" placeholder="Tell me about your project">
+        </form>
+        <button class="button form_btn">
+            <a href="#top" style="color: white;">Contact me</a>
+        </button>
+        
+
+
         <div class="container">
             <p class="end_text">Let's be Friends</p>
         </div>
         <div class="soc_media_icons">
-            <img src="img/icon_github.svg" alt="">
-            <img src="img/icon_instagram.svg" alt="">
-            <img src="img/icon_linkedin.svg" alt="">
+            <a href="https://github.com/aaavramenk0" target="_blank"><img src="img/icon_github.svg" alt=""></a>
+            <a href="https://www.instagram.com/_aaavramenko_/" target="_blank"><img src="img/icon_instagram.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/alexandr-avramenko-473561207/" target="_blank"><img src="img/icon_linkedin.svg" alt=""></a>
         </div>
 
     </div>
