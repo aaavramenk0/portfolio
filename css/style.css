@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Red+Hat+Display:wght@300;400;700&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --montserrat-font: 'Montserrat', sans-serif;
+    --red-hat-display-font: 'Red Hat Display', sans-serif; 
+}
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    font-family: var(--montserrat-font);
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 40px;
+}
+.top_bar {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.top_bar a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7A7A7A;
+}
