@@ -32,3 +32,6 @@ header {
     font-weight: 500;
     color: #7A7A7A;
 }
+.top-bar-link:hover {
+    color: black;
+}
