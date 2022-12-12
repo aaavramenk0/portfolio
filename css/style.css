@@ -1,37 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Red+Hat+Display:wght@300;400;700&display=swap'); 
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    outline: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
-:root {
-    --montserrat-font: 'Montserrat', sans-serif;
-    --red-hat-display-font: 'Red Hat Display', sans-serif; 
+::before, ::after {
+    box-sizing: border-box;
 }
-
-html, body {
-    overflow-x: hidden;
-}
-body {
-    position: relative;
-    font-family: var(--montserrat-font);
-    width: 1200px;
-    margin: 0 auto;
-}
-header {
-    padding-top: 40px;
-}
-.top_bar {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-.top_bar a {
-    font-size: 20px;
-    font-weight: 500;
-    color: #7A7A7A;
-}
-.top-bar-link:hover {
-    color: black;
+/* aside */ 
+.aside {
+    width: 270px;
+    background: var(--bg-black-100);
 }
