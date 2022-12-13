@@ -19,7 +19,7 @@ body
 {
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Times New Roman' sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 *
 {
@@ -322,7 +322,7 @@ h3.hello
 h3.hello span
 {
     font-family: 'Clicker Script' , cursive;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     color: var(--skin-color);
 }
