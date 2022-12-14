@@ -602,6 +602,15 @@ h3.my-profession
     max-width: 33.33%;
     margin-bottom: 30px;
 }
+.portfolio .portfolio-item .portfolio-item-heading {
+    font-size: 19px;
+    text-align: center;
+    color: var(--skin-color);
+    margin-bottom: 3px;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: -2px 2px 7px var(--skin-color);
+    
+}
 .portfolio .portfolio-item-inner
 {
     border: 6px solid var(--bg-black-100);
