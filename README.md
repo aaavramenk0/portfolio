@@ -1,2 +1,2 @@
 <h1>My portfolio</h1>
-<a href="www.oleksandravramenko.com"> www.oleksandravramenko.com </a>
+<a href="https://www.oleksandravramenko.com/"> www.oleksandravramenko.com </a>
